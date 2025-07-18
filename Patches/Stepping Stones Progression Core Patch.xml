@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Remove prerequisites from Organization -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ResearchProjectDef[defName="RR_Organization"]/prerequisites</xpath>
+    </Operation>
+
+    <!-- Disconnect lateral thinking from anything in the game -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef/prerequisites/li[text()="RR_LateralThinking"]</xpath>
+
+        <match Class="PatchOperationRemove">
+            <xpath>/Defs/ResearchProjectDef/prerequisites/li[text()="RR_LateralThinking"]</xpath>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef/researchPrerequisites/li[text()="RR_LateralThinking"]</xpath>
+
+        <match Class="PatchOperationRemove">
+            <xpath>/Defs/ThingDef/researchPrerequisites/li[text()="RR_LateralThinking"]</xpath>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/RecipeDef/researchPrerequisites/li[text()="RR_LateralThinking"]</xpath>
+
+        <match Class="PatchOperationRemove">
+            <xpath>/Defs/RecipeDef/researchPrerequisites/li[text()="RR_LateralThinking"]</xpath>
+        </match>
+    </Operation>
+
+    <!-- Hide lateral thinking -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="RR_LateralThinking"]/researchViewX</xpath>
+        <value>
+            <researchViewX>999</researchViewX>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="RR_LateralThinking"]/researchViewY</xpath>
+        <value>
+            <researchViewY>999</researchViewY>
+        </value>
+    </Operation>
+
+</Patch>
