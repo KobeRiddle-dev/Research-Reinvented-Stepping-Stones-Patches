@@ -5,10 +5,18 @@
     <supportedVersions>
         <li>1.6</li>
     </supportedVersions>
-    <packageId>KobeRiddle.RRSSProgressionCorePatch</packageId>
+    <packageId>KobeRiddle.RRSSProgressionPatches</packageId>
     <description>My stuff</description>
     <loadAfter>
         <li>PeteTimesSix.ResearchReinvented.SteppingStones</li>
         <li>Ferny.ProgressionCore</li>
     </loadAfter>
+    <modDependencies>
+        <li>
+            <packageId>PeteTimesSix.ResearchReinvented.SteppingStones</packageId>
+            <displayName>Research Reinvented: Stepping Stones</displayName>
+            <downloadUrl>https://github.com/PeteTimesSix/ResearchReinvented_SteppingStones/releases</downloadUrl>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2868389782</steamWorkshopUrl>
+        </li>
+    </modDependencies>
 </ModMetaData>
