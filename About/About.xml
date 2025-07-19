@@ -6,7 +6,8 @@
         <li>1.6</li>
     </supportedVersions>
     <packageId>KobeRiddle.RRSSProgressionPatches</packageId>
-    <description>My stuff</description>
+    <description>A collection of patches for Research Reinvented: Stepping Stones, increasing cohesiveness and compatibility with Stepping Stones' more individualized research projects.
+    </description>
     <loadAfter>
         <li>PeteTimesSix.ResearchReinvented.SteppingStones</li>
         <li>Ferny.ProgressionCore</li>
