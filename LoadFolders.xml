@@ -1,6 +1,6 @@
 <loadFolders>
     <v1.6>
         <li>/</li>
-        <li IfModActive="Ferny.ProgressionCore">Mod Patches\Progression core</li>
+        <li IfModActive="Ferny.ProgressionCore">Mod Patches/Progression Core</li>
     </v1.6>
 </loadFolders>
