@@ -11,13 +11,21 @@
     <loadAfter>
         <li>PeteTimesSix.ResearchReinvented.SteppingStones</li>
         <li>Ferny.ProgressionCore</li>
+        <li>GonDragon.TTPF</li>
+        <li>OskarPotocki.VFE.Classical</li>
     </loadAfter>
     <modDependencies>
         <li>
-            <packageId>PeteTimesSix.ResearchReinvented.SteppingStones</packageId>
-            <displayName>Research Reinvented: Stepping Stones</displayName>
+            <packageId>GonDragon.TTPF</packageId>
+            <displayName>Tech Tree Patch Framework</displayName>
             <downloadUrl>https://github.com/PeteTimesSix/ResearchReinvented_SteppingStones/releases</downloadUrl>
             <steamWorkshopUrl>steam://url/CommunityFilePage/2868389782</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>PeteTimesSix.ResearchReinvented.SteppingStones</packageId>
+            <displayName>Research Reinvented: Stepping Stones</displayName>
+            <downloadUrl>https://github.com/GonDragon/TTPF</downloadUrl>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/28683897823328259637</steamWorkshopUrl>
         </li>
     </modDependencies>
 </ModMetaData>
