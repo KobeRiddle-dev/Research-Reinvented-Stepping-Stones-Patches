@@ -6,6 +6,7 @@
         <li>1.6</li>
     </supportedVersions>
     <packageId>KobeRiddle.RRSSProgressionPatches</packageId>
+    <modVersion>1.0</modVersion>
     <description>A collection of patches for Research Reinvented: Stepping Stones, increasing cohesiveness and compatibility with Stepping Stones' more individualized research projects.
     </description>
     <loadAfter>
