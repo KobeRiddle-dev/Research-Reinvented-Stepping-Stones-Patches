@@ -150,7 +150,23 @@
     </Operation>
 
     <!-- VFEC_CraftingBench -->
-    <!-- No additional prerequisites needed -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="VFEC_CraftingBench"]/prerequisites</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ResearchProjectDef[defName="VFEC_CraftingBench"]</xpath>
+            <value>
+                <prerequisites></prerequisites>
+            </value>
+        </nomatch>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ResearchProjectDef[defName="VFEC_CraftingBench"]/prerequisites</xpath>
+        <value>
+            <prerequisites>
+                <li>RR_BasicCraftingFacilities</li>
+            </prerequisites>
+        </value>
+    </Operation>
 
     <!-- VFEC_CementMaking -->
     <Operation Class="PatchOperationConditional">
@@ -191,6 +207,52 @@
     </Operation>
 
     <!-- VFEC_TyrianProduction -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="VFET_Tribalwear"]</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationConditional">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEC_TyrianProduction"]/prerequisites</xpath>
+                    <nomatch Class="PatchOperationAdd">
+                        <xpath>/Defs/ResearchProjectDef[defName="VFEC_TyrianProduction"]</xpath>
+                        <value>
+                            <prerequisites></prerequisites>
+                        </value>
+                    </nomatch>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEC_TyrianProduction"]/prerequisites</xpath>
+                    <value>
+                        <prerequisites>
+                            <li>VFET_Tribalwear</li>
+                        </prerequisites>
+                    </value>
+                </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationConditional">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEC_TyrianProduction"]/prerequisites</xpath>
+                    <nomatch Class="PatchOperationAdd">
+                        <xpath>/Defs/ResearchProjectDef[defName="VFEC_TyrianProduction"]</xpath>
+                        <value>
+                            <prerequisites></prerequisites>
+                        </value>
+                    </nomatch>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VFEC_Togas"]/prerequisites</xpath>
+                    <value>
+                        <prerequisites>
+                            <li>RR_BasicApparel</li>
+                        </prerequisites>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+
+    </Operation>
 
     <!-- VFEC_RoadBuilding -->
     <Operation Class="PatchOperationConditional">
