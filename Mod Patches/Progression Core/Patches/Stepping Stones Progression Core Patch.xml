@@ -33,17 +33,11 @@
 
     <!-- Hide lateral thinking -->
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ResearchProjectDef[defName="RR_LateralThinking"]/researchViewX</xpath>
+        <xpath>Defs/ResearchProjectDef[defName="RR_LateralThinking"]/tab</xpath>
         <value>
-            <researchViewX>999</researchViewX>
+            <tab>TTPF_Hidden</tab>
         </value>
     </Operation>
-    
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ResearchProjectDef[defName="RR_LateralThinking"]/researchViewY</xpath>
-        <value>
-            <researchViewY>999</researchViewY>
-        </value>
-    </Operation>
+
 
 </Patch>
