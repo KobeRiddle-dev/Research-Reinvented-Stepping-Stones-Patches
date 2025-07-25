@@ -14,6 +14,7 @@
         <li>Ferny.ProgressionCore</li>
         <li>GonDragon.TTPF</li>
         <li>OskarPotocki.VFE.Classical</li>
+        <li>OskarPotocki.VFE.Tribals</li>
     </loadAfter>
     <modDependencies>
         <li>
