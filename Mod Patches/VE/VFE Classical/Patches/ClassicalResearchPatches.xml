@@ -1,0 +1,390 @@
+<Patch>
+    <!-- ========== Central Republic ========== -->
+
+    <!-- VFEC_Togas  -->
+    <!-- No additional prerequisites needed -->
+
+    <!-- VFEC_TemperatureControl -->
+    <!-- No additional prerequisites needed -->
+
+    <!-- VFEC_MeatDrying  -->
+    <!-- No additional prerequisites needed -->
+
+    <!-- VFEC_Mosaics -->
+    <Operation
+        Class="PatchOperationConditional">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="VFEC_Mosaics"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>/Defs/ThingDef[defName="VFEC_Mosaics"]/researchPrerequisites</xpath>
+            <value>
+                <researchPrerequisites>
+                    <li>Stonecutting</li>
+                </researchPrerequisites>
+            </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="VFEC_Mosaics"]</xpath>
+            <value>
+                <researchPrerequisites>
+                    <li>Stonecutting</li>
+                </researchPrerequisites>
+            </value>
+        </nomatch>
+    </Operation>
+
+    <!-- VFEC_Thermaebath -->
+    <Operation
+        Class="PatchOperationConditional">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="VFEC_Thermaebath"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VFEC_Thermaebath"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Stonecutting</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="VFEC_Thermaebath"]</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Stonecutting</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+
+
+    <!-- VFEC_DramaAndComedy -->
+    <Operation
+        Class="PatchOperationConditional">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="VFEC_DramaAndComedy"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VFEC_DramaAndComedy"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Stonecutting</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="VFEC_DramaAndComedy"]</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Stonecutting</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+
+    <!-- ========== Eastern Republic ========== -->
+
+    <!-- VFEC_BronzeWorking -->
+    <Operation
+        Class="PatchOperationConditional">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="VFEC_BronzeWorking"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VFEC_BronzeWorking"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Smithing</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="VFEC_BronzeWorking"]</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Smithing</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+
+    <!-- VFEC_CraftingBench -->
+    <!-- No additional prerequisites needed -->
+
+    <!-- VFEC_CementMaking -->
+    <Operation
+        Class="PatchOperationConditional">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="VFEC_CementMaking"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VFEC_CementMaking"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Stonecutting</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="VFEC_CementMaking"]</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Stonecutting</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+
+    <!-- VFEC_WoodfiredCrematorium -->
+    <Operation
+        Class="PatchOperationConditional">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="VFEC_WoodfiredCrematorium"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VFEC_WoodfiredCrematorium"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Stonecutting</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="VFEC_WoodfiredCrematorium"]</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Stonecutting</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+
+    <!-- VFEC_TyrianProduction -->
+
+    <!-- VFEC_RoadBuilding -->
+    <Operation
+        Class="PatchOperationConditional">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="VFEC_RoadBuilding"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VFEC_RoadBuilding"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Stonecutting</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="VFEC_RoadBuilding"]</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Stonecutting</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+
+    <!-- ========== Western Republic ============= -->
+
+    <!-- VFEC_HeavyShieldMaking -->
+    <Operation
+        Class="PatchOperationConditional">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="VFEC_HeavyShieldMaking"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VFEC_HeavyShieldMaking"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Smithing</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="VFEC_HeavyShieldMaking"]</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Smithing</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+
+    <!-- VFEC_LegionaryArmaments -->
+    <Operation
+        Class="PatchOperationConditional">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="VFEC_LegionaryArmaments"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VFEC_LegionaryArmaments"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Smithing</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="VFEC_LegionaryArmaments"]</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Smithing</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+
+    <!-- VFEC_LegionnaireArmor -->
+    <Operation
+        Class="PatchOperationConditional">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="VFEC_LegionnaireArmor"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VFEC_LegionnaireArmor"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Smithing</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="VFEC_LegionnaireArmor"]</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Smithing</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+
+    <!-- VFEC_CenturionArmor -->
+    <Operation
+        Class="PatchOperationConditional">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="VFEC_CenturionArmor"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VFEC_CenturionArmor"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Smithing</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="VFEC_CenturionArmor"]</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Smithing</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+
+    <!-- VFEC_Scorpion -->
+    <Operation
+        Class="PatchOperationConditional">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="VFEC_Scorpion"]/researchPrerequisites</xpath>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VFEC_Scorpion"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Smithing</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </match>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="VFEC_Scorpion"]</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Smithing</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+
+    <!-- VFEC_Beacons -->
+    <!-- No additional prerequisites needed -->
+
+</Patch>
