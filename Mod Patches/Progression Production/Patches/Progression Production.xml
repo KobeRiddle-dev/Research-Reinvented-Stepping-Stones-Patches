@@ -1,0 +1,26 @@
+<Patch>
+    
+    <!-- Add Crafting Benches prerequisite to Research Bench -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="Ferny_ResearchBench"]/prerequisites</xpath>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ResearchProjectDef[defName="Ferny_ResearchBench"]</xpath>
+                    <value>
+                        <prerequisites></prerequisites>
+                    </value>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ResearchProjectDef[defName="Ferny_ResearchBench"]/prerequisites</xpath>
+        <value>
+            <prerequisites>
+                <li>RR_BasicCraftingFacilities</li>
+            </prerequisites>
+        </value>
+    </Operation>
+    
+</Patch>
