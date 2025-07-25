@@ -372,6 +372,22 @@
     </Operation>
 
     <!-- VFEC_Beacons -->
-    <!-- No additional prerequisites needed -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>/Defs/ResearchProjectDef[defName="VFEC_Beacons"]/prerequisites</xpath>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ResearchProjectDef[defName="VFEC_Beacons"]</xpath>
+            <value>
+                <prerequisites></prerequisites>
+            </value>
+        </nomatch>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ResearchProjectDef[defName="VFEC_Beacons"]/prerequisites</xpath>
+        <value>
+            <prerequisites>
+                <li>Smithing</li>
+            </prerequisites>
+        </value>
+    </Operation>
 
 </Patch>
