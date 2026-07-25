@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>Research Reinvented: Stepping Stones | Patches</name>
+    <name>Cohesive Research: A Stepping Stones Project</name>
     <author>Kobe Riddle</author>
     <supportedVersions>
         <li>1.6</li>
     </supportedVersions>
-    <packageId>KobeRiddle.RRSSProgressionPatches</packageId>
+    <packageId>KobeRiddle.CohesiveResearch</packageId>
     <modVersion>1.0</modVersion>
     <description>A collection of patches for Research Reinvented: Stepping Stones, increasing cohesiveness and compatibility with Stepping Stones' more individualized research projects.
     </description>
@@ -17,12 +17,6 @@
         <li>OskarPotocki.VFE.Tribals</li>
     </loadAfter>
     <modDependencies>
-        <li>
-            <packageId>GonDragon.TTPF</packageId>
-            <displayName>Tech Tree Patch Framework</displayName>
-            <downloadUrl>https://github.com/PeteTimesSix/ResearchReinvented_SteppingStones/releases</downloadUrl>
-            <steamWorkshopUrl>steam://url/CommunityFilePage/2868389782</steamWorkshopUrl>
-        </li>
         <li>
             <packageId>PeteTimesSix.ResearchReinvented.SteppingStones</packageId>
             <displayName>Research Reinvented: Stepping Stones</displayName>
