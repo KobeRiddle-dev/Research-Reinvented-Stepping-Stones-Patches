@@ -1,0 +1,6 @@
+c:\Steam\steamapps\common\Rimworld\Mods\Research Reinvented Stepping Stones  Patches\Source\Cohesive Research\obj\Debug\net472\Cohesive Research.csproj.AssemblyReference.cache
+c:\Steam\steamapps\common\Rimworld\Mods\Research Reinvented Stepping Stones  Patches\Source\Cohesive Research\obj\Debug\net472\Cohesive Research.GeneratedMSBuildEditorConfig.editorconfig
+c:\Steam\steamapps\common\Rimworld\Mods\Research Reinvented Stepping Stones  Patches\Source\Cohesive Research\obj\Debug\net472\Cohesive Research.AssemblyInfoInputs.cache
+c:\Steam\steamapps\common\Rimworld\Mods\Research Reinvented Stepping Stones  Patches\Source\Cohesive Research\obj\Debug\net472\Cohesive Research.AssemblyInfo.cs
+c:\Steam\steamapps\common\Rimworld\Mods\Research Reinvented Stepping Stones  Patches\Source\Cohesive Research\obj\Debug\net472\Cohesive Research.csproj.CoreCompileInputs.cache
+c:\Steam\steamapps\common\Rimworld\Mods\Research Reinvented Stepping Stones  Patches\Source\Cohesive Research\obj\Debug\net472\Cohesive Research.sourcelink.json
