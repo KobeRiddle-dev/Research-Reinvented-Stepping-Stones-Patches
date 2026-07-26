@@ -4,6 +4,6 @@ Cohesive Research is a collection of patches in the vein of [Research Reinvented
 
 ## Changes
 
-### Core
+### VFE Tribals
 
-- 
+- Replaces all instances of `VFET_ResearchSpot` with `RR_ThinkingSpot`, to avoid any errors when using VFE Tribals and Research Reinvented: Stepping Stones together with any mod that is looking for `VFET_ResearchSpot` (such as Progression: Education)

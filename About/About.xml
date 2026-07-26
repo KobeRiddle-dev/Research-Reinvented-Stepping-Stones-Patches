@@ -20,8 +20,13 @@
         <li>
             <packageId>PeteTimesSix.ResearchReinvented.SteppingStones</packageId>
             <displayName>Research Reinvented: Stepping Stones</displayName>
-            <downloadUrl>https://github.com/GonDragon/TTPF</downloadUrl>
-            <steamWorkshopUrl>steam://url/CommunityFilePage/28683897823328259637</steamWorkshopUrl>
+            <downloadUrl>https://github.com/PeteTimesSix/ResearchReinvented_SteppingStones</downloadUrl>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2868389782</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>Ferny.ReplaceLib</packageId>
+            <displayName>ReplaceLib</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3417393194</steamWorkshopUrl>
         </li>
     </modDependencies>
 </ModMetaData>

@@ -1,0 +1,11 @@
+<Defs>
+    <ReplaceLib.ReplacerDef>
+        <defName>ResearchSpot-ThinkingSpot</defName>
+        <replacers>
+            <li>
+                <replace>VFET_ResearchSpot</replace>
+                <with>RR_ThinkingSpot</with>
+            </li>
+        </replacers>
+    </ReplaceLib.ReplacerDef>
+</Defs>

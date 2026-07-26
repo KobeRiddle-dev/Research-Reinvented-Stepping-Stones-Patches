@@ -4,5 +4,5 @@
         <li IfModActive="Ferny.ProgressionCore">Mod Patches/Progression Core</li>
         <li IfModActive="Ferny.ProgressionProduction">Mod Patches/Progression Production</li>
         <li IfModActive="OskarPotocki.VFE.Classical">Mod Patches/VE/VFE Classical</li>
-    </v1.6>
+        <li IfModActive="OskarPotocki.VFE.Tribals">Mod Patches/VE/VFE Tribals</li>    </v1.6>
 </loadFolders>
