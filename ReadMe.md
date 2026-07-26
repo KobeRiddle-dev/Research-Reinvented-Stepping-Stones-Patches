@@ -4,6 +4,40 @@ Cohesive Research is a collection of patches in the vein of [Research Reinvented
 
 ## Changes
 
+Key: Research Project/Thing/Recipe <- New prerequisite Research Project (source mod)
+
+### Progression: Production
+
+NOTE: This patch will soon not be recommended, as this mod will replace Progression: Production in and of itself.
+
+Research Projects:
+
+- Research Bench <- Basic Crafting Facilities (Research Reinvented:Stepping Stones)
+
+### VFE Classical
+
+Research Projects:
+
+- Togas <- Basic Apparel (Research Reinvented:Stepping Stones)
+    - If VFE Tribals is installed: Togas <- Tribalwear (VFE Tribals)
+- Tyrian Production <- Basic Apparel (Research Reinvented:Stepping Stones)
+    - If VFE Tribals is installed: Tyrian Production <- Tribalwear (VFE Tribals)
+- Temperature control research project <- Passive Cooler (Core)
+- Mosaics <- Stonecutting (Core)
+- Thermaebath <- Stonecutting (Core)
+- Drama and Comedy <- Stonecutting (Core)
+- Bronze Working <- Smithing (Core)
+- Crafting Bench <- Basic Crafting Facilities (Research Reinvented:Stepping Stones)
+- Cement Making <- Stonecutting (Core)
+- Wood-fired Crematorium <- Stonecutting (Core)
+- Road building <- Stonecutting (Core)
+- Heavy Shield Making <- Smithing (Core)
+- Legionary Armaments <- Smithing (Core)
+- Legionnaire Armor <- Smithing (Core)
+- Centurion Armor <- Smithing (Core)
+- Scorpion <- Smithing (Core), Recurve Bow (Core)
+- Beacons <- Smithing (Core)
+
 ### VFE Tribals
 
 - Replaces all instances of `VFET_ResearchSpot` with `RR_ThinkingSpot`, to avoid any errors when using VFE Tribals and Research Reinvented: Stepping Stones together with any mod that is looking for `VFET_ResearchSpot` (such as Progression: Education)
