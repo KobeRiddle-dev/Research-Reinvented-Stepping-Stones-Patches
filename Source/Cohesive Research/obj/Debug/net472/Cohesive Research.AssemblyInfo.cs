@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cohesive Research")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5acabeb67bd08e9ba3fd5a4d89f5b308b3dc9b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+664fb3b7e83049df3c99fd57b5a632cd388c5eea")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cohesive Research")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cohesive Research")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
