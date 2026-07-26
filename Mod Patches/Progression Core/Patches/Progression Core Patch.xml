@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-    <!-- Remove prerequisites from Organization -->
-    <Operation Class="PatchOperationRemove">
-        <xpath>/Defs/ResearchProjectDef[defName="RR_Organization"]/prerequisites</xpath>
-    </Operation>
+    <!-- NOTE: This will need to be done in C#, because lateral thinking is made a prerequisite for other research projects via C# -->
 
-    <!-- Disconnect lateral thinking from anything in the game -->
+    <!-- 1. Disconnect lateral thinking from anything in the game -->
+
+    <!-- Prerequisites for Researches -->
     <Operation Class="PatchOperationConditional">
         <xpath>/Defs/ResearchProjectDef/prerequisites/li[text()="RR_LateralThinking"]</xpath>
 
@@ -15,6 +14,7 @@
         </match>
     </Operation>
 
+    <!-- Prerequisites for Things -->
     <Operation Class="PatchOperationConditional">
         <xpath>/Defs/ThingDef/researchPrerequisites/li[text()="RR_LateralThinking"]</xpath>
 
@@ -23,6 +23,7 @@
         </match>
     </Operation>
 
+    <!-- Prerequisites for Recipes -->
     <Operation Class="PatchOperationConditional">
         <xpath>/Defs/RecipeDef/researchPrerequisites/li[text()="RR_LateralThinking"]</xpath>
 
@@ -31,13 +32,10 @@
         </match>
     </Operation>
 
-    <!-- Hide lateral thinking -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ResearchProjectDef[defName="RR_LateralThinking"]/tab</xpath>
-        <value>
-            <tab>TTPF_Hidden</tab>
-        </value>
-    </Operation>
+    <!-- 2. Delete lateral thinking -->
+    <!-- <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ResearchProjectDef[defName="RR_LateralThinking"]</xpath>
+    </Operation> -->
 
 
 </Patch>
