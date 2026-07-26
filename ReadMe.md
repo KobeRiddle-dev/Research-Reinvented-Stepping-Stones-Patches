@@ -41,3 +41,17 @@ Research Projects:
 ### VFE Tribals
 
 - Replaces all instances of `VFET_ResearchSpot` with `RR_ThinkingSpot`, to avoid any errors when using VFE Tribals and Research Reinvented: Stepping Stones together with any mod that is looking for `VFET_ResearchSpot` (such as Progression: Education)
+
+## Planned Changes
+
+### VE Cooking
+
+- Simple Bake, Fine Bake <- Basic Baking
+- Lavish Bake, Gourmet Bake <- Refined Baking
+- Simple Dessert, Fine Dessert <- Basic Desserts
+- Lavish Dessert, Gourmet Dessert <- Refined Desserts
+- Similar for other meal types
+
+### VCE - Carnivore/Vegetarian Meals Patch
+
+Same as for VE Cooking, but for the VCE Carnivore and Vegetarian meals.
