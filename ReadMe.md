@@ -58,6 +58,7 @@ Same as for VE Cooking, but for the VCE Carnivore and Vegetarian meals.
 
 ### Transparent Substructure
 
+- Adds Glass Blowing (new) as a prerequisite for transparent foundations, substructures, and floors.
 
 ### Mods which will not be patched (for now)
 

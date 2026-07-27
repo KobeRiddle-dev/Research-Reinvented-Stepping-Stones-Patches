@@ -1,0 +1,14 @@
+<Defs>
+    <ResearchProjectDef>
+        <defName>KobeRiddle_GlassBlowing</defName>
+        <label>glass blowing</label>
+        <description>Creating and using glass</description>
+        <baseCost>500</baseCost>
+        <techLevel>Medieval</techLevel>
+        <prerequisites>
+            <li>Smithing</li>
+        </prerequisites>
+        <researchViewX>0</researchViewX>
+        <researchViewY>0</researchViewY>
+    </ResearchProjectDef>
+</Defs>
