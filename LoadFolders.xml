@@ -3,5 +3,7 @@
         <li>/</li>
         <li IfModActive="Ferny.ProgressionProduction">Mod Patches/Progression Production</li>
         <li IfModActive="OskarPotocki.VFE.Classical">Mod Patches/VE/VFE Classical</li>
-        <li IfModActive="OskarPotocki.VFE.Tribals">Mod Patches/VE/VFE Tribals</li>    </v1.6>
+        <li IfModActive="OskarPotocki.VFE.Tribals">Mod Patches/VE/VFE Tribals</li>
+        <li IfModActive="Aelanna.TransparentSubstructure">Mod Patches/Other/Transparent Substructure</li>
+    </v1.6>
 </loadFolders>

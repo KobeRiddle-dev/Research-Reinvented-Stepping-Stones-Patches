@@ -55,3 +55,10 @@ Research Projects:
 ### VCE - Carnivore/Vegetarian Meals Patch
 
 Same as for VE Cooking, but for the VCE Carnivore and Vegetarian meals.
+
+### Transparent Substructure
+
+
+### Mods which will not be patched (for now)
+
+- Hospitality (and Casino, Gastronomy, Spa, Storefront, Vending Machines): already well-served by Progression: Hospitality.
