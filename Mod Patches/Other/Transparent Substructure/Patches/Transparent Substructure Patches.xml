@@ -11,7 +11,7 @@
                     <label>glass blowing</label>
                     <description>Creating and using glass</description>
                     <baseCost>500</baseCost>
-                    <techLevel>Industrial</techLevel>
+                    <techLevel>Medieval</techLevel>
                     <prerequisites>
                         <li>Smithing</li>
                     </prerequisites>
@@ -36,12 +36,13 @@
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/TerrainDef[defName="TransparentFoundation_FineTile"
+        <xpath>Defs/TerrainDef[
+            defName="TransparentFoundation_FineTile"
             or defName="TransparentFoundation_SkyTile"
             or defName="TransparentFoundation_FineSkyTile"
             or defName="TransparentFoundation_Substructure"
-            or defName="TransparentFoundation_HeavyBridge"]
-            /researchPrerequisites
+            or defName="TransparentFoundation_HeavyBridge"
+            ]/researchPrerequisites
         </xpath>
         <value>
             <li>KobeRiddle_GlassBlowing</li>
