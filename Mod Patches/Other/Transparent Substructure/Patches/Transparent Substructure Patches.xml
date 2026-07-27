@@ -23,25 +23,41 @@
     </Operation>
 
     <!-- Add glass as a prerequisite for transparent foundations and floors -->
-    <Operation Class="RR.PatchOperationAddIfMissing">
-        <xpath>Defs/TerrainDef[defName="TransparentFoundation_FineTile"
-            or defName="TransparentFoundation_SkyTile"
-            or defName="TransparentFoundation_FineSkyTile"
-            or defName="TransparentFoundation_Substructure"
-            or defName="TransparentFoundation_HeavyBridge"]
-        </xpath>
-        <value>
-            <researchPrerequisites>
-            </researchPrerequisites>
-        </value>
-    </Operation>
+
+    <!-- Floors inheriting from TileMetalBase: override parent prerequisites -->
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/TerrainDef[
             defName="TransparentFoundation_FineTile"
             or defName="TransparentFoundation_SkyTile"
             or defName="TransparentFoundation_FineSkyTile"
             or defName="TransparentFoundation_Substructure"
-            or defName="TransparentFoundation_HeavyBridge"
+            ]
+        </xpath>
+        <value>
+            <researchPrerequisites>
+                <li>KobeRiddle_GlassBlowing</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/TerrainDef[
+            defName="TransparentFoundation_FineTile"
+            or defName="TransparentFoundation_SkyTile"
+            or defName="TransparentFoundation_FineSkyTile"
+            or defName="TransparentFoundation_Substructure"
+            ]/researchPrerequisites
+        </xpath>
+        <value>
+            <researchPrerequisites>
+                <li>KobeRiddle_GlassBlowing</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <!-- Bridge: append glass to existing prerequisites -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[
+            defName="TransparentFoundation_HeavyBridge"
             ]/researchPrerequisites
         </xpath>
         <value>
