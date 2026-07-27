@@ -34,21 +34,7 @@
             ]
         </xpath>
         <value>
-            <researchPrerequisites>
-                <li>KobeRiddle_GlassBlowing</li>
-            </researchPrerequisites>
-        </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/TerrainDef[
-            defName="TransparentFoundation_FineTile"
-            or defName="TransparentFoundation_SkyTile"
-            or defName="TransparentFoundation_FineSkyTile"
-            or defName="TransparentFoundation_Substructure"
-            ]/researchPrerequisites
-        </xpath>
-        <value>
-            <researchPrerequisites>
+            <researchPrerequisites Inherit="False">
                 <li>KobeRiddle_GlassBlowing</li>
             </researchPrerequisites>
         </value>
