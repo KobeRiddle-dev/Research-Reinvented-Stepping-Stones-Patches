@@ -1,20 +1,29 @@
-# Cohesive Research: A Stepping Stone Project
+# Cohesive Research: A Stepping Stones Project
 
+- [Cohesive Research: A Stepping Stones Project](#cohesive-research-a-stepping-stones-project)
+    - [Overview](#overview)
+    - [Changes](#changes)
+        - [Vanilla Expanded](#vanilla-expanded)
+            - [VFE Classical](#vfe-classical)
+            - [VFE Tribals](#vfe-tribals)
+        - [Other](#other)
+            - [Progression: Production](#progression-production)
+        - [Transparent Substructure](#transparent-substructure)
+    - [Planned Changes](#planned-changes)
+        - [VE Cooking](#ve-cooking)
+        - [VCE - Carnivore/Vegetarian Meals Patch](#vce---carnivorevegetarian-meals-patch)
+        - [Mods which will not be patched (for now)](#mods-which-will-not-be-patched-for-now)
+
+## Overview
 Cohesive Research is a collection of patches in the vein of [Research Reinvented: Stepping Stones](https://steamcommunity.com/sharedfiles/filedetails/?id=2868389782), increasing cohesiveness and compatibility with Stepping Stones' more individualized research projects.
 
 ## Changes
 
-Key: Research Project/Thing/Recipe <- New prerequisite Research Project (source mod)
+Key: Research Project(s)/Thing(s)/Recipe(s) <- New prerequisite Research Project (source mod)
 
-### Progression: Production
+### Vanilla Expanded
 
-NOTE: This patch will soon not be recommended, as this mod will replace Progression: Production in and of itself.
-
-Research Projects:
-
-- Research Bench <- Basic Crafting Facilities (Research Reinvented:Stepping Stones)
-
-### VFE Classical
+#### VFE Classical
 
 Research Projects:
 
@@ -38,9 +47,23 @@ Research Projects:
 - Scorpion <- Smithing (Core), Recurve Bow (Core)
 - Beacons <- Smithing (Core)
 
-### VFE Tribals
+#### VFE Tribals
 
 - Replaces all instances of `VFET_ResearchSpot` with `RR_ThinkingSpot`, to avoid any errors when using VFE Tribals and Research Reinvented: Stepping Stones together with any mod that is looking for `VFET_ResearchSpot` (such as Progression: Education)
+
+### Other
+
+#### Progression: Production
+
+NOTE: This patch will soon not be recommended, as this mod will replace Progression: Production in and of itself.
+
+Research Projects:
+
+- Research Bench <- Basic Crafting Facilities (Research Reinvented:Stepping Stones)
+
+### Transparent Substructure
+
+- Transparent Fine Tile, Transparent Substructure, Sky Tile, Fine Sky Tile, Heavy Transparent Bridge <- Glass Blowing (new) <- Smithing (Core)
 
 ## Planned Changes
 
@@ -55,10 +78,6 @@ Research Projects:
 ### VCE - Carnivore/Vegetarian Meals Patch
 
 Same as for VE Cooking, but for the VCE Carnivore and Vegetarian meals.
-
-### Transparent Substructure
-
-- Adds Glass Blowing (new) as a prerequisite for transparent foundations, substructures, and floors.
 
 ### Mods which will not be patched (for now)
 
