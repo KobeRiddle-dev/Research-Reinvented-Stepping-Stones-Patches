@@ -1,0 +1,14 @@
+<Patch>
+
+    <!-- Alters research prerequisites for the Flamethrower -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="CE_Gun_Flamethrower"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+            <researchPrerequisites Inherit="False">
+                <li>CE_Launchers</li>
+                <li>RR_IncendiaryWeapons</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+    
+</Patch>

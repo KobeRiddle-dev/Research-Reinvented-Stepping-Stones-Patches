@@ -17,6 +17,11 @@
         <li>OskarPotocki.VFE.Classical</li>
         <li>OskarPotocki.VFE.Tribals</li>
 
+        <!-- Combat Extended -->
+        <li>CETeam.CombatExtended</li>
+        <li>ceteam.combatextendedguns</li>
+        <li>Rosalina.Mating.Press</li>
+
         <!-- Other -->
         <li>Aelanna.TransparentSubstructure</li>
     </loadAfter>

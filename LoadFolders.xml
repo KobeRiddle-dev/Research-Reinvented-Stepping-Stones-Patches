@@ -8,6 +8,11 @@
         <li IfModActive="OskarPotocki.VFE.Classical">Mod Patches/VE/VFE Classical</li>
         <li IfModActive="OskarPotocki.VFE.Tribals">Mod Patches/VE/VFE Tribals</li>
 
+        <!-- Combat Extended -->
+        <li IfModActive="CETeam.CombatExtended">Mod Patches/CE/Core</li>
+        <li IfModActive="Rosalina.Mating.Press">Mod Patches\CE\Generic Ammo Experience</li>
+        <li IfModActive="ceteam.combatextendedguns">Mod Patches\CE\CE Guns</li>
+
         <!-- Other -->
         <li IfModActive="Ferny.ProgressionProduction">Mod Patches/Progression/Progression Production</li>
         <li IfModActive="Aelanna.TransparentSubstructure">Mod Patches/Other/Transparent Substructure</li>
