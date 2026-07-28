@@ -1,0 +1,32 @@
+<Patch>
+
+    <!-- Add glass as a prerequisite for transparent foundations and floors -->
+
+    <!-- Floors inheriting from TileMetalBase: override parent prerequisites -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[
+            defName="TransparentFoundation_FineTile"
+            or defName="TransparentFoundation_SkyTile"
+            or defName="TransparentFoundation_FineSkyTile"
+            or defName="TransparentFoundation_Substructure"
+            ]
+        </xpath>
+        <value>
+            <researchPrerequisites Inherit="False">
+                <li>KobeRiddle_GlassBlowing</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <!-- Bridge: append glass to existing prerequisites -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[
+            defName="TransparentFoundation_HeavyBridge"
+            ]/researchPrerequisites
+        </xpath>
+        <value>
+            <li>KobeRiddle_GlassBlowing</li>
+        </value>
+    </Operation>
+
+</Patch>

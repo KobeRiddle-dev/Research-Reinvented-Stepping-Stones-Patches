@@ -10,9 +10,15 @@
     <description>A collection of patches for Research Reinvented: Stepping Stones, increasing cohesiveness and compatibility with Stepping Stones' more individualized research projects.
     </description>
     <loadAfter>
+        <!-- Research Reinvented: Stepping Stones -->
         <li>PeteTimesSix.ResearchReinvented.SteppingStones</li>
+
+        <!-- Vanilla Expanded -->
         <li>OskarPotocki.VFE.Classical</li>
         <li>OskarPotocki.VFE.Tribals</li>
+
+        <!-- Other -->
+        <li>Aelanna.TransparentSubstructure</li>
     </loadAfter>
     <modDependencies>
         <li>
