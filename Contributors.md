@@ -97,4 +97,4 @@ Example Patch
 
 ## Ordering
 
-LoadFolders and [About.xml](About/About.xml)'s `<loadAfter>` list are sorted first by folder (custom order), then alphabetically by mod name. Please add new entries in the correct order.
+LoadFolders and [About.xml](About/About.xml)'s `<loadAfter>` list are sorted first by folder (custom order), then alphabetically by mod name. Please add new entries in the correct order. Contributors should not create sorting folders (i.e VE, Other, etc.) without first asking permission.
