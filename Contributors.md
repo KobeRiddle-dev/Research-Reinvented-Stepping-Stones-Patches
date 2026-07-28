@@ -1,10 +1,28 @@
 # Contributing to Cohesive Research
 
-## Research Defs
+- [Contributing to Cohesive Research](#contributing-to-cohesive-research)
+    - [How to Add a Patch for a Mod](#how-to-add-a-patch-for-a-mod)
+    - [Research Project Defs](#research-project-defs)
+        - [Example Research Project Def:](#example-research-project-def)
+    - [Patches](#patches)
+        - [Example Patch](#example-patch)
+    - [Ordering](#ordering)
+
+## How to Add a Patch for a Mod
+
+> If you're new to modding, please check out The Path of the Muffalo Discord server (linked on the Path of the Muffalo Steam Workshop Page). The people there will be happy to help you help us make Cohesive Research better!
+
+1. Explain the changes you are making in [ReadMe.md](ReadMe.md). Follow proper [Ordering](#ordering) and the existing formatting.
+2. Create needed [Research Project Defs](#research-project-defs), if they do not already exist.
+3. Create the necessary [Patches](#patches).
+4. Make sure you have added the needed lines in [LoadFolders.xml](LoadFolders.xml). Again, follow proper [Ordering](#ordering) and the existing formatting -- follow Pascal-Case: (capitalize each new word, *including* the first).
+5. Submit a Pull Request with your changes. The Path of the Muffalo Discord server (linked on the Path of the Muffalo Steam Workshop Page) is a great place to talk about changes or ask question before submitting a PR, if you're unsure. Of course, feedback on PRs will be given through GitHub as well. 
+
+## Research Project Defs
 
 Define all `ResearchProjectDef`s in `Conditional Defs/<Research Project Name>/Defs`, and then add a line in [LoadFolders.xml](LoadFolders.xml) with all mods whose patches require the research project.
 
-Example:
+### Example Research Project Def:
 
 [Glass Blowing.xml](Conditional%20Defs/Glass%20Blowing/Defs/Glass%20Blowing.xml)
 
@@ -47,7 +65,7 @@ We are unable to define variable names, method names, etc. in RimWorld XML patch
 
 >! Do not use `<Success>Always</Success>` in your patches. This doesn't make your patches work, it makes them fail silently.
 
-Example Patch
+### Example Patch
 
 [Transparent Substructure Patches.xml](Mod%20Patches/Other/Transparent%20Substructure/Patches/Transparent%20Substructure%20Patches.xml)
 
