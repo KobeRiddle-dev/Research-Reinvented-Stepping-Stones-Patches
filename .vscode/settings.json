@@ -1,3 +1,6 @@
 {
-    "dotnet.defaultSolution": "Cohesive Research.sln"
+    "dotnet.defaultSolution": "Cohesive Research.sln",
+    "cSpell.words": [
+        "Gunsmithing"
+    ]
 }
