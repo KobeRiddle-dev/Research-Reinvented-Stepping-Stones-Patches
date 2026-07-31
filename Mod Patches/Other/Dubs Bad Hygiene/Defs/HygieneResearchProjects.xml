@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef DBHLite="true"> 
+		<defName>SimpleHygiene</defName>
+		<label>simple hygiene</label>
+		<tab>DubsBadHygiene</tab>
+		<description>Use latrines and water tubs to establish a basic level of hygiene.</description>
+		<baseCost>400</baseCost>
+		<prerequisites>
+		    <li></li>
+		</prerequisites>
+		<techLevel>Neolithic</techLevel>
+		<tags>
+			<li>TribalStart</li>
+		</tags>
+	</ResearchProjectDef>
+</Defs>

@@ -90,6 +90,7 @@ Tweaks:
 - Rename: Heating -> Water Heating
 - Rename: Central Heating -> Plumbed Water Heating
 - Rename: Geothermal Heating -> Geothermal Water Heating
+- Rename: Fire Suppression -> Fire Sprinklers
 
 Things:
 

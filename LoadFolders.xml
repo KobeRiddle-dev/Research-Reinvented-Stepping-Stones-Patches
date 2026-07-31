@@ -11,5 +11,6 @@
         <!-- Other -->
         <li IfModActive="Ferny.ProgressionProduction">Mod Patches/Progression/Progression Production</li>
         <li IfModActive="Aelanna.TransparentSubstructure">Mod Patches/Other/Transparent Substructure</li>
+        <li IfModActive="Dubwise.DubsBadHygiene">Mod Patches/Other/Dubs Bad Hygiene</li>
     </v1.6>
 </loadFolders>

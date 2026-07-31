@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="SewageSludgeComposting"]/label</xpath>
+    <value>
+      <label>composting</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="FireSuppression"]/label</xpath>
+    <value>
+      <label>fire sprinklers</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="LogBoilers"]/label</xpath>
+    <value>
+      <label>water heating</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="GeothermalHeating"]/label</xpath>
+    <value>
+      <label>geothermal water heating</label>
+    </value>
+  </Operation>
+</Patch>
