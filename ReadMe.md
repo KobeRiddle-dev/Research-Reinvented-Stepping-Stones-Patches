@@ -33,6 +33,59 @@ Each new research project will only be added if it is required by a [Mod Patch](
 
 Key: Research Project(s)/Thing(s)/Recipe(s) <- New prerequisite Research Project (source mod)
 
+### Combat Extended
+
+#### Core
+Note: Currently, only the generic ammo types are supported, and it is higly recomneded to use The Generic Ammo Experience for Combat Extended (a mod by Turkler) when using this patch. This may change in the future. The research requirements from this patch (and the other CE patches in this mod) are in addition to the original requirements, not a repleacement. Also note, if you are using YART it currently will show the non-generic ammo types in the research tree despite the generic ammo types option in CE being enabled, this has been reported to YARTs developer and hopefully will be fixed in the future. 
+
+Research Projects:
+
+- Incendiary Launcher <- Incendiary Weapons (Research Reinvented:Stepping Stones)
+- Flare Gun <- Incendiary Weapons (Research Reinvented:Stepping Stones)
+- EMP Grenades <- EMP Weapons (Research Reinvented:Stepping Stones)
+- Anti-Materiel Incendiary Ammo <- Incendiary Weapons (Research Reinvented:Stepping Stones)
+- Incendiary Mortar Shells <- Incendiary Weapons (Research Reinvented:Stepping Stones)
+- Incendiary Rifle Ammo <- Incendiary Weapons (Research Reinvented:Stepping Stones)
+- Incendiary Intermediate Rifle Ammo <- Incendiary Weapons (Research Reinvented:Stepping Stones)
+- Incendiary Magnum Rifle Ammo <- Incendiary Weapons (Research Reinvented:Stepping Stones)
+- Fire Arrows <- Incendiary Weapons (Research Reinvented:Stepping Stones)
+- Flare Cartridges <- Incendiary Weapons (Research Reinvented:Stepping Stones)
+- EMP Launcher Grenades <- EMP Weapons (Research Reinvented:Stepping Stones)
+- EMP Autocannon Grenades <- EMP Weapons (Research Reinvented:Stepping Stones)
+- EMP Mortar Shells <- EMP Weapons (Research Reinvented:Stepping Stones)
+- 155mm EMP Howitzer Shells <- EMP Weapons (Research Reinvented:Stepping Stones)
+- Heavy Cannon EMP Shells <- EMP Weapons (Research Reinvented:Stepping Stones)
+- Napalm Flamethrower Fuel <- Incendiary Weapons (Research Reinvented:Stepping Stones)
+- Prometheum Flamethrower Fuel <- Incendiary Weapons (Research Reinvented:Stepping Stones)
+
+Research Projects (Only active when *The Generic Ammo Experience for Combat Extended* is NOT installed):
+
+- Incendiary Launcher Grenades <- Incendiary Weapons (Research Reinvented:Stepping Stones)
+- Incendiary Autocannon Shells <- Incendiary Weapons (Research Reinvented:Stepping Stones)
+- Incendiary Artillery Shells <- Incendiary Weapons (Research Reinvented:Stepping Stones)
+- Electro Slug Shotgun Ammo <- EMP Weapons (Research Reinvented:Stepping Stones)
+- EMP Artillery Shells <- EMP Weapons (Research Reinvented:Stepping Stones)
+
+#### Combat Extended Guns
+
+Research Projects:
+
+- Flamethrower <- Incendiary Weapons (Research Reinvented:Stepping Stones)
+
+#### The Generic Ammo Expeience for Comabt Extended
+
+Research Projects:
+
+- EMP Missiles <- EMP Weapons (Research Reinvented:Stepping Stones)
+- EMP Rocket Grenades <- EMP Weapons (Research Reinvented:Stepping Stones)
+- Incendiary Missiles <- Incendiary Weapons (Research Reinvented:Stepping Stones)
+- Incendiary Fuel Ammo <- Incendiary Weapons (Research Reinvented:Stepping Stones)
+- Incendiary Autocannon Shells <- Incendiary Weapons (Research Reinvented:Stepping Stones)
+- EMP Shotgun Shells <- EMP Weapons (Research Reinvented:Stepping Stones)
+- Mounted Flamethrower Turret <- Incendiary Weapons (Research Reinvented:Stepping Stones)
+- Flamethrower AutoTurret <- Incendiary Weapons (Research Reinvented:Stepping Stones)
+- Smoke Bombs <- Basic Explosives (The Generic Ammo Experience for Combat Extended)
+
 ### Vanilla Expanded
 
 #### VFE Classical

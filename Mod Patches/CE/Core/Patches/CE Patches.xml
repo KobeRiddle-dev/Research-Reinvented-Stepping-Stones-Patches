@@ -1,0 +1,252 @@
+<Patch>
+    <!-- Alters research prerequisites for the Incendiary Launcher -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Gun_IncendiaryLauncher"]/recipeMaker/researchPrerequisites</xpath>
+        <value>
+            <researchPrerequisites Inherit="False">
+                <li>CE_AdvancedLaunchers</li>
+                <li>RR_IncendiaryWeapons</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <!-- Alters research prerequisites for the Flare Gun -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="CE_FlareGun"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+            <researchPrerequisites>
+                <li>Gunsmithing</li>
+                <li>RR_IncendiaryWeapons</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <!-- Adds research prerequisites to Anti-Materiel Incendiary ammo -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_AntiMateriel_Incendiary"]</xpath>
+        <value>
+            <researchPrerequisites>
+                <li>RR_IncendiaryWeapons</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <!-- Adds research prerequisites to Incendiary Mortar Shells -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName="MakeShell_Incendiary"]</xpath>
+        <value>
+            <researchPrerequisites Inherit="False">
+                <li>RR_IncendiaryWeapons</li>
+                <li>Mortars</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <!-- Adds research prerequisites to Incendiary Rifle ammo -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_Rifle_Incendiary"]</xpath>
+        <value>
+            <researchPrerequisites Inherit="False">
+                <li>RR_IncendiaryWeapons</li>
+                <li>CE_AdvancedAmmo</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <!-- Adds research prerequisites to Incendiary Intermediate Rifle ammo -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_RifleIntermediate_Incendiary"]</xpath>
+        <value>
+            <researchPrerequisites Inherit="False">
+                <li>RR_IncendiaryWeapons</li>
+                <li>CE_AdvancedAmmo</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <!-- Adds research prerequisites to Incendiary Magnum Rifle ammo -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_RifleMagnum_Incendiary"]</xpath>
+        <value>
+            <researchPrerequisites Inherit="False">
+                <li>RR_IncendiaryWeapons</li>
+                <li>CE_AdvancedAmmo</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <!-- Adds research prerequisites to Fire Arrows -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_Arrow_Flame"]</xpath>
+        <value>
+            <researchPrerequisites Inherit="False">
+                <li>RR_IncendiaryWeapons</li>
+                <li>Smithing</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <!-- Adds research prerequisites to Flare Cartridges -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_Flare"]</xpath>
+        <value>
+            <researchPrerequisites>
+                <li>RR_IncendiaryWeapons</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <!-- Alters research prerequisite for EMP Grenades -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="MakeEMPGrenade"]/researchPrerequisite</xpath>
+        <value>
+            <researchPrerequisite Inherit="False">
+                <li>RR_EMP</li>
+            </researchPrerequisite>
+        </value>
+    </Operation>
+
+    <!-- Adds research prerequisites to EMP Launcher Grenades -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_LauncherGrenade_EMP"]</xpath>
+        <value>
+            <researchPrerequisites Inherit="False">
+                <li>RR_EMP</li>
+                <li>CE_Launchers</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <!-- Adds research prerequisites to EMP Autocannon Grenades -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_AutocannonGrenade_EMP"]</xpath>
+        <value>
+            <researchPrerequisites Inherit="False">
+                <li>RR_EMP</li>
+                <li>CE_Launchers</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <!-- Adds research prerequisites to EMP Mortar Shells -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName="MakeShell_EMP"]</xpath>
+        <value>
+            <researchPrerequisites Inherit="False">
+                <li>RR_EMP</li>
+                <li>Mortars</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <!-- Adds research prerequisites to 155mm EMP Howitzer Shells -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_155mmHowitzerShell_EMP"]</xpath>
+        <value>
+            <researchPrerequisites Inherit="False">
+                <li>RR_EMP</li>
+                <li>Mortars</li>
+                <li>CE_TurretHeavyWeapons</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <!-- Adds research prerequisites to Heavy Cannon EMP Shells -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName="MakeAmmo_HeavyCannonShell_EMP"]</xpath>
+        <value>
+            <researchPrerequisites Inherit="False">
+                <li>RR_EMP</li>
+                <li>CE_TurretHeavyWeapons</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <!-- Conditional patches active only when "The Generic Ammo Experience for Combat Extended" is NOT loaded -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>The Generic Ammo Experience for Combat Extended</li>
+        </mods>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <!-- Adds research prerequisites to Incendiary Launcher Grenades -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/RecipeDef[defName="MakeAmmo_LauncherGrenade_Incendiary"]</xpath>
+                    <value>
+                        <researchPrerequisites Inherit="False">
+                            <li>RR_IncendiaryWeapons</li>
+                            <li>CE_AdvancedAmmo</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+
+                <!-- Adds research prerequisites to Incendiary Autocannon Shells -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/RecipeDef[defName="MakeAmmo_Autocannon_Incendiary"]</xpath>
+                    <value>
+                        <researchPrerequisites Inherit="False">
+                            <li>RR_IncendiaryWeapons</li>
+                            <li>CE_AdvancedAmmo</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+
+                <!-- Adds research prerequisites to Incendiary Artillery Shells -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/RecipeDef[defName="MakeAmmo_ArtilleryShell_Incendiary"]</xpath>
+                    <value>
+                        <researchPrerequisites Inherit="False">
+                            <li>RR_IncendiaryWeapons</li>
+                            <li>Mortars</li>
+                            <li>CE_TurretHeavyWeapons</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+
+                <!-- Alters research prerequisite for Electro Slug Shotgun Ammo -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/RecipeDef[defName="MakeAmmo_Shotgun_ElectroSlug"]/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite>
+                            <li>RR_EMP</li>
+                        </researchPrerequisite>
+                    </value>
+                </li>
+
+                <!-- Adds research prerequisites to EMP Artillery Shells -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/RecipeDef[defName="MakeAmmo_ArtilleryShell_EMP"]</xpath>
+                    <value>
+                        <researchPrerequisites Inherit="False">
+                            <li>RR_EMP</li>
+                            <li>Mortars</li>
+                            <li>CE_TurretHeavyWeapons</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+
+                <!-- Alters research prerequisites for Napalm Flamethrower Fuel -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/RecipeDef[defName="MakeAmmo_Flamethrower_Napalm"]</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>RR_IncendiaryWeapons</li>
+                            <li>CE_Launchers</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+
+                <!-- Alters research prerequisites for Prometheum Flamethrower Fuel -->
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/RecipeDef[defName="MakeAmmo_Flamethrower_Prometheum"]</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>RR_IncendiaryWeapons</li>
+                            <li>CE_Launchers</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>                
+            </operations>
+        </nomatch>
+    </Operation>
+</Patch>
